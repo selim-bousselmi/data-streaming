@@ -7,6 +7,6 @@ Interpreting raw stock data can be challenging, hence we employed the Matplotlib
 # Description
 This application uses the Apache Flink streaming framework to collect data (stock prices over time) from the endpoint of the API (realstonks), and emits it as a string to the Flink data stream. The run method continues to execute until the cancel method is invoked, and it sleeps for a specified time interval between requests. The main method configures the Flink execution environment, adds the HTTP data source, and outputs the data to the console using the print method.
 
-#Instructions
+# Instructions
 Running the code is very simple. You clone the project with git to download it locally, and then run data-streaming/src/main/scala/api-requests.scala file.
 You need to have Java 8, Apache Flink and Scala.
